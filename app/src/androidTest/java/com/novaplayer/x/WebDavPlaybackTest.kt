@@ -29,8 +29,8 @@ import okhttp3.mockwebserver.RecordedRequest
 import okio.Buffer
 import org.junit.Assert.assertTrue
 import org.junit.Rule
-import org.junit.runner.RunWith
 import org.junit.Test
+import org.junit.runner.RunWith
 import org.koin.core.context.GlobalContext
 
 @RunWith(AndroidJUnit4::class)

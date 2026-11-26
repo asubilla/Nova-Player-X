@@ -7,10 +7,10 @@ import androidx.media3.datasource.DataSpec
 import androidx.media3.datasource.TransferListener
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
-import org.junit.runner.RunWith
 import org.junit.Test
-import org.robolectric.annotation.Config
+import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
+import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE)

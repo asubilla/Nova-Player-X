@@ -8,8 +8,8 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.content.res.Configuration
-import android.graphics.drawable.Icon
 import android.graphics.Rect
+import android.graphics.drawable.Icon
 import android.os.Build
 import android.os.Process
 import android.util.Rational
@@ -21,20 +21,20 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.DisposableEffectResult
 import androidx.compose.runtime.DisposableEffectScope
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.Stable
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.runtime.Stable
 import androidx.core.app.PictureInPictureParamsCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.getSystemService
 import androidx.core.net.toUri
 import androidx.core.pip.PictureInPictureDelegate
 import androidx.core.pip.VideoPlaybackPictureInPicture
-import androidx.media3.common.listen
 import androidx.media3.common.Player
+import androidx.media3.common.listen
 import com.novaplayer.x.core.common.extensions.isPipFeatureSupported
 import com.novaplayer.x.core.ui.R as coreUiR
 

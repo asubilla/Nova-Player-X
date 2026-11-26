@@ -19,8 +19,8 @@ import com.novaplayer.x.feature.more.screens.history.HistoryScreenContent
 import com.novaplayer.x.feature.more.screens.history.HistoryUiState
 import org.junit.Assert.assertEquals
 import org.junit.Rule
-import org.junit.runner.RunWith
 import org.junit.Test
+import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 class HistoryScreenTest {

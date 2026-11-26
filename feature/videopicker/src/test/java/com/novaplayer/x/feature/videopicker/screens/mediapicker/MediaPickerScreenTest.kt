@@ -1,8 +1,8 @@
 package com.novaplayer.x.feature.videopicker.screens.mediapicker
 
+import android.Manifest
 import android.app.Application
 import android.content.pm.PackageManager
-import android.Manifest
 import androidx.activity.ComponentActivity
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
@@ -32,18 +32,18 @@ import com.novaplayer.x.core.model.MediaViewMode
 import com.novaplayer.x.core.model.PlaylistSummary
 import com.novaplayer.x.core.model.PlaylistType
 import com.novaplayer.x.core.model.Video
+import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.base.DataState
 import com.novaplayer.x.core.ui.components.LocalTopLevelFabSetter
 import com.novaplayer.x.core.ui.components.TopLevelFabState
-import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.theme.NovaPlayerTheme
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Rule
-import org.junit.runner.RunWith
 import org.junit.Test
-import org.robolectric.annotation.Config
+import org.junit.runner.RunWith
 import org.robolectric.Shadows.shadowOf
+import org.robolectric.annotation.Config
 
 @RunWith(AndroidJUnit4::class)
 @Config(sdk = [36])

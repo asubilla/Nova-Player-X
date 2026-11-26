@@ -6,8 +6,8 @@ import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -21,15 +21,15 @@ import com.novaplayer.x.feature.player.extensions.nameRes
 import com.novaplayer.x.feature.player.model.DecoderMode
 import com.novaplayer.x.feature.player.state.ChaptersState
 import com.novaplayer.x.feature.player.state.ControlsVisibilityState
-import com.novaplayer.x.feature.player.state.seekAmountFormatted
 import com.novaplayer.x.feature.player.state.SeekGestureState
-import com.novaplayer.x.feature.player.state.seekToPositionFormated
 import com.novaplayer.x.feature.player.state.VideoZoomAndContentScaleState
+import com.novaplayer.x.feature.player.state.seekAmountFormatted
+import com.novaplayer.x.feature.player.state.seekToPositionFormated
+import com.novaplayer.x.feature.player.ui.InfoView
+import com.novaplayer.x.feature.player.ui.OverlayView
 import com.novaplayer.x.feature.player.ui.controls.ControlsBottomView
 import com.novaplayer.x.feature.player.ui.controls.ControlsMiddleView
 import com.novaplayer.x.feature.player.ui.controls.ControlsTopView
-import com.novaplayer.x.feature.player.ui.InfoView
-import com.novaplayer.x.feature.player.ui.OverlayView
 
 @OptIn(UnstableApi::class)
 @Composable

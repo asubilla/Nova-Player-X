@@ -4,23 +4,23 @@ import android.net.Uri
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.BoxWithConstraints
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.GridItemSpan
-import androidx.compose.foundation.lazy.grid.itemsIndexed
 import androidx.compose.foundation.lazy.grid.LazyGridState
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.itemsIndexed
 import androidx.compose.foundation.lazy.grid.rememberLazyGridState
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
-import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.res.stringResource
@@ -34,15 +34,15 @@ import com.novaplayer.x.core.model.Folder
 import com.novaplayer.x.core.model.MediaLayoutMode
 import com.novaplayer.x.core.model.MediaViewMode
 import com.novaplayer.x.core.model.Video
+import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.components.ListSectionTitle
+import com.novaplayer.x.core.ui.components.RestorableFocusState
 import com.novaplayer.x.core.ui.components.rememberRestorableFocusState
 import com.novaplayer.x.core.ui.components.restorableFocusGroup
 import com.novaplayer.x.core.ui.components.restorableFocusItem
-import com.novaplayer.x.core.ui.components.RestorableFocusState
 import com.novaplayer.x.core.ui.extensions.plus
-import com.novaplayer.x.core.ui.R
-import com.novaplayer.x.feature.videopicker.state.rememberSelectionManager
 import com.novaplayer.x.feature.videopicker.state.SelectionManager
+import com.novaplayer.x.feature.videopicker.state.rememberSelectionManager
 import kotlin.math.abs
 
 @OptIn(

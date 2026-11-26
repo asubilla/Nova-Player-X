@@ -1,10 +1,10 @@
 package com.novaplayer.x.core.common
 
-import android.content.res.Resources
 import android.Manifest
+import android.content.res.Resources
 import android.os.Build
-import java.util.concurrent.TimeUnit
 import java.util.Locale
+import java.util.concurrent.TimeUnit
 import kotlin.math.abs
 
 val storagePermission = when {

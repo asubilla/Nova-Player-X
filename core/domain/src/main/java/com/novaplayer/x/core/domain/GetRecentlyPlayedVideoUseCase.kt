@@ -3,12 +3,12 @@ package com.novaplayer.x.core.domain
 import com.novaplayer.x.core.common.di.DiQualifiers
 import com.novaplayer.x.core.data.repository.PreferencesRepository
 import com.novaplayer.x.core.model.MediaViewMode
-import com.novaplayer.x.core.model.recentPlayed
 import com.novaplayer.x.core.model.Video
+import com.novaplayer.x.core.model.recentPlayed
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import org.koin.core.annotation.Factory

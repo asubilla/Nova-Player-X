@@ -1,10 +1,10 @@
 package com.novaplayer.x.core.media.network.clients
 
 import com.hierynomus.msfscc.fileinformation.FileIdBothDirectoryInformation
+import com.hierynomus.smbj.SMBClient
 import com.hierynomus.smbj.connection.Connection
 import com.hierynomus.smbj.session.Session
 import com.hierynomus.smbj.share.DiskShare
-import com.hierynomus.smbj.SMBClient
 import com.novaplayer.x.core.model.NetworkConnection
 import com.novaplayer.x.core.model.NetworkFile
 import com.novaplayer.x.core.model.NetworkProtocol
@@ -15,6 +15,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
+import org.mockito.Mockito.RETURNS_DEEP_STUBS
 import org.mockito.Mockito.`when`
 import org.mockito.Mockito.any
 import org.mockito.Mockito.anyInt
@@ -22,7 +23,6 @@ import org.mockito.Mockito.anyString
 import org.mockito.Mockito.eq
 import org.mockito.Mockito.mock
 import org.mockito.Mockito.never
-import org.mockito.Mockito.RETURNS_DEEP_STUBS
 import org.mockito.Mockito.times
 import org.mockito.Mockito.verify
 

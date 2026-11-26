@@ -2,10 +2,10 @@ package com.novaplayer.x.core.media.network.keys
 
 import java.io.File
 import java.io.FileNotFoundException
-import java.io.InputStream
 import java.io.IOException
-import java.util.concurrent.CountDownLatch
+import java.io.InputStream
 import java.util.UUID
+import java.util.concurrent.CountDownLatch
 
 class SshKeyFiles(
     private val stagingDirectory: File,

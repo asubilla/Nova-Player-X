@@ -5,8 +5,8 @@ import androidx.datastore.core.Serializer
 import com.novaplayer.x.core.model.SearchHistory
 import java.io.InputStream
 import java.io.OutputStream
-import kotlinx.serialization.json.Json
 import kotlinx.serialization.SerializationException
+import kotlinx.serialization.json.Json
 
 object SearchHistorySerializer : Serializer<SearchHistory> {
 

@@ -8,10 +8,10 @@ import androidx.media3.common.TrackGroup
 import androidx.media3.common.util.UnstableApi
 import com.novaplayer.x.feature.player.model.DecoderMode
 import org.junit.Assert.assertEquals
-import org.junit.runner.RunWith
 import org.junit.Test
-import org.robolectric.annotation.Config
+import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
+import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
 @Config(

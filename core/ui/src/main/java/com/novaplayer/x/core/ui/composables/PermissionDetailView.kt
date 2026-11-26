@@ -1,15 +1,15 @@
 package com.novaplayer.x.core.ui.composables
 
-import android.content.Intent
 import android.Manifest
+import android.content.Intent
 import android.net.Uri
 import android.provider.Settings
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -23,8 +23,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
-import com.novaplayer.x.core.ui.preview.DayNightPreview
 import com.novaplayer.x.core.ui.R
+import com.novaplayer.x.core.ui.preview.DayNightPreview
 import com.novaplayer.x.core.ui.theme.NovaPlayerTheme
 
 @Composable

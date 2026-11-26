@@ -4,8 +4,8 @@ import com.novaplayer.x.core.model.ApplicationPreferences
 import com.novaplayer.x.core.model.NetworkConnection
 import com.novaplayer.x.core.model.NetworkProtocol
 import com.novaplayer.x.core.model.PlayerPreferences
-import kotlinx.serialization.json.boolean
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.boolean
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 import org.junit.Assert.assertEquals

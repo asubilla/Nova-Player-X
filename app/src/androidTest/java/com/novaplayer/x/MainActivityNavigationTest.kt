@@ -12,8 +12,8 @@ import androidx.test.rule.GrantPermissionRule
 import com.novaplayer.x.core.common.storagePermission
 import com.novaplayer.x.core.ui.R
 import org.junit.Rule
-import org.junit.runner.RunWith
 import org.junit.Test
+import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 class MainActivityNavigationTest {

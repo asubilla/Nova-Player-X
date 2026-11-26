@@ -3,15 +3,15 @@ package com.novaplayer.x.core.media.network.keys
 import java.io.ByteArrayInputStream
 import java.io.File
 import java.io.FileNotFoundException
-import java.io.InputStream
 import java.io.IOException
-import java.util.concurrent.atomic.AtomicBoolean
+import java.io.InputStream
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.Executors
-import java.util.concurrent.TimeoutException
 import java.util.concurrent.TimeUnit
-import kotlinx.coroutines.asCoroutineDispatcher
+import java.util.concurrent.TimeoutException
+import java.util.concurrent.atomic.AtomicBoolean
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.asCoroutineDispatcher
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
@@ -19,8 +19,8 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertThrows
 import org.junit.Assert.assertTrue
 import org.junit.Rule
-import org.junit.rules.TemporaryFolder
 import org.junit.Test
+import org.junit.rules.TemporaryFolder
 
 class SshKeyFilesTest {
 

@@ -6,8 +6,8 @@ import com.novaplayer.x.core.data.repository.PreferencesRepository
 import com.novaplayer.x.core.model.Sort
 import com.novaplayer.x.core.model.Video
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.flowOn
 import org.koin.core.annotation.Factory
 import org.koin.core.annotation.Named

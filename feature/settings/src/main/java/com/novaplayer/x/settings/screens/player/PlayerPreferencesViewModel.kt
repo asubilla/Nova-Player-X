@@ -9,9 +9,9 @@ import com.novaplayer.x.core.model.PlayerPreferences
 import com.novaplayer.x.core.model.Resume
 import com.novaplayer.x.core.model.ScreenOrientation
 import com.novaplayer.x.core.ui.base.MviViewModel
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.core.annotation.InjectedParam

@@ -1,9 +1,9 @@
 package com.novaplayer.x.feature.network.screens.browse
 
 import android.net.Uri
+import com.novaplayer.x.core.data.repository.NetworkConnectionRepository
 import com.novaplayer.x.core.data.repository.fake.FakeMediaRepository
 import com.novaplayer.x.core.data.repository.fake.FakePreferencesRepository
-import com.novaplayer.x.core.data.repository.NetworkConnectionRepository
 import com.novaplayer.x.core.media.network.NetworkClient
 import com.novaplayer.x.core.media.network.NetworkClientFactory
 import com.novaplayer.x.core.media.network.NetworkUri
@@ -17,8 +17,8 @@ import com.novaplayer.x.core.model.Video
 import com.novaplayer.x.feature.network.MainDispatcherRule
 import java.io.InputStream
 import java.util.Date
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.test.advanceUntilIdle
@@ -28,10 +28,10 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Rule
-import org.junit.runner.RunWith
 import org.junit.Test
-import org.robolectric.annotation.Config
+import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
+import org.robolectric.annotation.Config
 
 @OptIn(ExperimentalCoroutinesApi::class)
 @RunWith(RobolectricTestRunner::class)

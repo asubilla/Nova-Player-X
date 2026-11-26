@@ -6,8 +6,8 @@ import androidx.media3.common.util.UnstableApi
 import androidx.media3.datasource.BaseDataSource
 import androidx.media3.datasource.DataSpec
 import com.novaplayer.x.core.media.network.NetworkClient
-import java.io.InputStream
 import java.io.IOException
+import java.io.InputStream
 import kotlinx.coroutines.runBlocking
 
 /**

@@ -5,9 +5,9 @@ import com.novaplayer.x.core.data.repository.PlaylistRepository
 import com.novaplayer.x.core.model.Playlist
 import com.novaplayer.x.core.model.PlaylistItem
 import com.novaplayer.x.core.model.PlaylistType
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged
-import kotlinx.coroutines.flow.Flow
 import org.koin.core.annotation.Factory
 
 @Factory

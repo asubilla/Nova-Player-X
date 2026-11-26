@@ -7,9 +7,9 @@ import android.graphics.Rect
 import android.media.AudioManager
 import android.net.Uri
 import android.os.SystemClock
-import android.view.accessibility.AccessibilityNodeInfo
 import android.view.KeyEvent
 import android.view.MotionEvent
+import android.view.accessibility.AccessibilityNodeInfo
 import androidx.core.content.FileProvider
 import androidx.media3.session.MediaController
 import androidx.media3.session.SessionToken
@@ -36,8 +36,8 @@ import kotlinx.coroutines.withTimeout
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
-import org.junit.runner.RunWith
 import org.junit.Test
+import org.junit.runner.RunWith
 import org.koin.core.context.GlobalContext
 
 @RunWith(AndroidJUnit4::class)

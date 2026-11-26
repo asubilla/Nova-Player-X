@@ -10,8 +10,8 @@ import androidx.media3.exoplayer.source.ShuffleOrder
 import com.novaplayer.x.feature.player.model.DecoderMode
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
-import org.junit.runner.RunWith
 import org.junit.Test
+import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
 

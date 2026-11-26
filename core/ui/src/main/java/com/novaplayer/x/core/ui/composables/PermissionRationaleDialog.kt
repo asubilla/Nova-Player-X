@@ -8,8 +8,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import com.novaplayer.x.core.ui.preview.DayNightPreview
 import com.novaplayer.x.core.ui.R
+import com.novaplayer.x.core.ui.preview.DayNightPreview
 import com.novaplayer.x.core.ui.theme.NovaPlayerTheme
 
 @Composable

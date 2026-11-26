@@ -2,38 +2,38 @@ package com.novaplayer.x.feature.player.service
 
 import android.net.Uri
 import com.novaplayer.x.core.common.di.DiQualifiers
-import com.novaplayer.x.core.data.repository.fake.FakeMediaRepository
-import com.novaplayer.x.core.data.repository.fake.FakePreferencesRepository
 import com.novaplayer.x.core.data.repository.MediaRepository
 import com.novaplayer.x.core.data.repository.PreferencesRepository
-import com.novaplayer.x.core.media.network.datasource.NetworkSessions
-import com.novaplayer.x.core.media.network.datasource.NextDataSourceFactory
+import com.novaplayer.x.core.data.repository.fake.FakeMediaRepository
+import com.novaplayer.x.core.data.repository.fake.FakePreferencesRepository
 import com.novaplayer.x.core.media.network.NetworkClient
 import com.novaplayer.x.core.media.network.NetworkClientFactory
 import com.novaplayer.x.core.media.network.NetworkConnectionResolver
+import com.novaplayer.x.core.media.network.datasource.NetworkSessions
+import com.novaplayer.x.core.media.network.datasource.NextDataSourceFactory
 import com.novaplayer.x.core.model.NetworkFile
 import java.io.InputStream
-import kotlinx.coroutines.async
-import kotlinx.coroutines.cancel
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.CoroutineStart
-import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.async
+import kotlinx.coroutines.cancel
+import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.withTimeout
 import org.junit.Assert.assertNotSame
 import org.junit.Assert.assertSame
-import org.junit.runner.RunWith
 import org.junit.Test
+import org.junit.runner.RunWith
 import org.koin.core.context.startKoin
 import org.koin.core.context.stopKoin
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
-import org.robolectric.annotation.Config
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
+import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk = [28])

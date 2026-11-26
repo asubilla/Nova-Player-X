@@ -16,10 +16,11 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.key
 import androidx.compose.runtime.remember
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.components.ClickablePreferenceItem
 import com.novaplayer.x.core.ui.components.NextTopAppBar
 import com.novaplayer.x.core.ui.components.rememberRestorableFocusState
@@ -27,7 +28,6 @@ import com.novaplayer.x.core.ui.components.restorableFocusGroup
 import com.novaplayer.x.core.ui.components.restorableFocusItem
 import com.novaplayer.x.core.ui.components.tvFocusDown
 import com.novaplayer.x.core.ui.designsystem.NextIcons
-import com.novaplayer.x.core.ui.R
 
 data class SettingsOutput(val navigateUp: () -> Unit, val openSetting: (Setting) -> Unit)
 

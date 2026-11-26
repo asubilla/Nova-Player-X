@@ -19,9 +19,9 @@ import com.novaplayer.x.feature.player.state.CuesState
 import java.io.File
 import java.util.concurrent.FutureTask
 import java.util.concurrent.TimeUnit
-import kotlinx.coroutines.cancel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch
 import okhttp3.mockwebserver.Dispatcher
 import okhttp3.mockwebserver.MockResponse
@@ -31,8 +31,8 @@ import okio.Buffer
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNull
-import org.junit.runner.RunWith
 import org.junit.Test
+import org.junit.runner.RunWith
 
 /** Exercises the application's real source factories and renderer selection, without a custom load control. */
 @RunWith(AndroidJUnit4::class)

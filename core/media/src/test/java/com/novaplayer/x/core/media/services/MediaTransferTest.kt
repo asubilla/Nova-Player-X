@@ -1,5 +1,6 @@
 package com.novaplayer.x.core.media.services
 
+import android.Manifest
 import android.app.PendingIntent
 import android.content.ContentProvider
 import android.content.ContentResolver
@@ -10,7 +11,6 @@ import android.content.pm.PackageManager
 import android.content.pm.ProviderInfo
 import android.database.Cursor
 import android.database.MatrixCursor
-import android.Manifest
 import android.net.Uri
 import android.os.Bundle
 import android.os.Environment
@@ -22,9 +22,9 @@ import java.io.ByteArrayInputStream
 import java.io.File
 import java.io.InputStream
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.filterIsInstance
 import kotlinx.coroutines.flow.single
-import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import org.junit.After
@@ -33,15 +33,15 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertThrows
 import org.junit.Assert.assertTrue
 import org.junit.Before
-import org.junit.runner.RunWith
 import org.junit.Test
+import org.junit.runner.RunWith
+import org.robolectric.RobolectricTestRunner
+import org.robolectric.RuntimeEnvironment
+import org.robolectric.Shadows.shadowOf
 import org.robolectric.annotation.Config
 import org.robolectric.annotation.Implementation
 import org.robolectric.annotation.Implements
-import org.robolectric.RobolectricTestRunner
-import org.robolectric.RuntimeEnvironment
 import org.robolectric.shadows.ShadowContentResolver
-import org.robolectric.Shadows.shadowOf
 
 @RunWith(RobolectricTestRunner::class)
 @Config(

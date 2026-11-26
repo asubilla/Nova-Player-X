@@ -3,21 +3,21 @@ package com.novaplayer.x.feature.videopicker.composables
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.components.CancelButton
 import com.novaplayer.x.core.ui.components.DoneButton
 import com.novaplayer.x.core.ui.components.NextDialog
 import com.novaplayer.x.core.ui.components.NextOutlinedTextField
-import com.novaplayer.x.core.ui.R
 import kotlin.time.Duration.Companion.milliseconds
 import kotlinx.coroutines.delay
 

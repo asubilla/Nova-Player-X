@@ -2,9 +2,9 @@ package com.novaplayer.x.feature.player.state
 
 import androidx.annotation.OptIn
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -14,9 +14,9 @@ import androidx.media3.common.Timeline
 import androidx.media3.common.Tracks
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.extractor.metadata.Chapter
-import androidx.media3.ui.compose.state.observeState
 import androidx.media3.ui.compose.state.PlayerStateObserver
 import androidx.media3.ui.compose.state.ProgressStateWithTickInterval
+import androidx.media3.ui.compose.state.observeState
 
 @OptIn(UnstableApi::class)
 @Composable

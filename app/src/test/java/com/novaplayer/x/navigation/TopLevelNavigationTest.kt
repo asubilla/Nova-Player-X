@@ -1,9 +1,9 @@
 package com.novaplayer.x.navigation
 
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.NavBackStack
 import androidx.navigation3.runtime.NavKey
+import androidx.navigation3.runtime.entryProvider
 import com.novaplayer.x.feature.playlist.navigation.PlaylistDetailRoute
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue

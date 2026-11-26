@@ -1,8 +1,8 @@
 package com.novaplayer.x.core.database
 
 import androidx.room.Database
-import androidx.room.migration.Migration
 import androidx.room.RoomDatabase
+import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 import com.novaplayer.x.core.database.dao.HiddenVideoDao
 import com.novaplayer.x.core.database.dao.MediumStateDao

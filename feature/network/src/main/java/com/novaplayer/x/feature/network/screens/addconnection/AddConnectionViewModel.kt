@@ -4,8 +4,8 @@ import android.net.Uri
 import androidx.lifecycle.viewModelScope
 import com.novaplayer.x.core.common.di.DiQualifiers
 import com.novaplayer.x.core.data.repository.NetworkConnectionRepository
-import com.novaplayer.x.core.media.network.keys.SshKeyStore
 import com.novaplayer.x.core.media.network.NetworkClientFactory
+import com.novaplayer.x.core.media.network.keys.SshKeyStore
 import com.novaplayer.x.core.media.network.sftp.HostKeyConfirmationRequired
 import com.novaplayer.x.core.media.network.sftp.HostKeyMismatch
 import com.novaplayer.x.core.model.NetworkAuthentication
@@ -15,14 +15,14 @@ import com.novaplayer.x.core.ui.base.MviViewModel
 import java.io.FileNotFoundException
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-import kotlinx.coroutines.Job
 import kotlinx.coroutines.joinAll
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.withContext
 import org.koin.core.annotation.InjectedParam
 import org.koin.core.annotation.KoinViewModel

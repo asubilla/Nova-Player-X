@@ -3,8 +3,8 @@ package com.novaplayer.x.feature.videopicker.composables
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentHeight
@@ -27,20 +27,20 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.novaplayer.x.core.model.ApplicationPreferences
 import com.novaplayer.x.core.model.MediaViewMode
 import com.novaplayer.x.core.model.Sort
+import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.components.CancelButton
 import com.novaplayer.x.core.ui.components.DoneButton
 import com.novaplayer.x.core.ui.components.MediaLayoutAndSortSettings
 import com.novaplayer.x.core.ui.components.NextDialog
 import com.novaplayer.x.core.ui.designsystem.NextIcons
-import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.feature.videopicker.extensions.name
 
 @OptIn(

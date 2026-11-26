@@ -8,9 +8,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.res.stringResource
+import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.components.NextDialog
 import com.novaplayer.x.core.ui.components.PreferenceSwitch
-import com.novaplayer.x.core.ui.R
 
 @Composable
 internal fun VaultSettingsDialog(

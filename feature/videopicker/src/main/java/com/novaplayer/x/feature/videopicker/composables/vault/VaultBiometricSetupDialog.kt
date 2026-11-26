@@ -3,14 +3,14 @@ package com.novaplayer.x.feature.videopicker.composables.vault
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.res.stringResource
-import com.novaplayer.x.core.ui.components.NextDialog
 import com.novaplayer.x.core.ui.R
+import com.novaplayer.x.core.ui.components.NextDialog
 
 @Composable
 internal fun VaultBiometricSetupDialog(onComplete: (Boolean) -> Unit) {

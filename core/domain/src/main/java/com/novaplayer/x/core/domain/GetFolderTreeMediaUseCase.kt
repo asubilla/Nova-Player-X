@@ -5,13 +5,13 @@ import com.novaplayer.x.core.common.extensions.prettyName
 import com.novaplayer.x.core.data.repository.MediaRepository
 import com.novaplayer.x.core.data.repository.PreferencesRepository
 import com.novaplayer.x.core.model.Folder
-import com.novaplayer.x.core.model.isNew
 import com.novaplayer.x.core.model.Sort
 import com.novaplayer.x.core.model.Video
+import com.novaplayer.x.core.model.isNew
 import java.io.File
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.flowOn
 import org.koin.core.annotation.Factory
 import org.koin.core.annotation.Named
