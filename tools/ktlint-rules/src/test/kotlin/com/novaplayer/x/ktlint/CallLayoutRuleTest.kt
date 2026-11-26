@@ -125,7 +125,7 @@ class CallLayoutRuleTest {
         engine.lint(Code.fromSnippet("val value = pair(1, 2)")) { error ->
             rules += error.ruleId.value
         }
-        assertTrue("NovaPlayer:call-layout" in rules)
+        assertTrue("novaplayer:call-layout" in rules)
     }
 
     @Test

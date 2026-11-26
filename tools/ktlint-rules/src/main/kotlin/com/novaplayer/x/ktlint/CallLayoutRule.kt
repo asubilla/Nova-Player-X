@@ -29,7 +29,7 @@ import org.jetbrains.kotlin.psi.KtValueArgumentList
 /** Keeps multi-argument calls vertical and their initializers beside the assignment operator. */
 class CallLayoutRule :
     Rule(
-        ruleId = RuleId(value = "NovaPlayer:call-layout"),
+        ruleId = RuleId(value = "novaplayer:call-layout"),
         about = About(maintainer = "Nova Player X"),
         visitorModifiers = setOf(
             RunAfterRule(
