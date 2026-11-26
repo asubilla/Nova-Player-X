@@ -78,6 +78,7 @@ private fun AboutPreferencesScreenContent(
     onAction: (AboutPreferencesAction) -> Unit,
 ) {
     val uriHandler = LocalUriHandler.current
+    val context = LocalContext.current
     val listFocusRequester = rememberTvListFocusRequester()
     Scaffold(
         topBar = {
@@ -114,7 +115,7 @@ private fun AboutPreferencesScreenContent(
                 onGithubClick = {
                     uriHandler.openUriOrShowToast(
                         uri = GITHUB_URL,
-                        context = LocalContext.current,
+                        context = context,
                     )
                 },
                 onLibrariesClick = { onAction(AboutPreferencesAction.OpenLibraries) },
