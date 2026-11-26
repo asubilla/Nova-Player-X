@@ -4,8 +4,8 @@ import android.app.Application
 import coil3.ImageLoader
 import coil3.PlatformContext
 import coil3.SingletonImageLoader
-import com.novaplayer.x.core.common.Logger
 import com.novaplayer.x.core.common.di.DiQualifiers
+import com.novaplayer.x.core.common.Logger
 import com.novaplayer.x.core.data.repository.NetworkConnectionRepository
 import com.novaplayer.x.core.media.network.keys.SshKeyStore
 import kotlinx.coroutines.CoroutineScope

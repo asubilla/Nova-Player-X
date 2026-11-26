@@ -7,15 +7,15 @@ import android.widget.Toast
 import androidx.navigation3.runtime.EntryProviderScope
 import androidx.navigation3.runtime.NavBackStack
 import androidx.navigation3.runtime.NavKey
-import com.novaplayer.x.PlaylistShortcut
 import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.feature.player.PlayerActivity
 import com.novaplayer.x.feature.player.utils.PlaylistPlaybackContract
-import com.novaplayer.x.feature.playlist.navigation.PlaylistDetailRoute
-import com.novaplayer.x.feature.playlist.navigation.PlaylistListRoute
 import com.novaplayer.x.feature.playlist.navigation.navigateToPlaylistDetail
 import com.novaplayer.x.feature.playlist.navigation.playlistDetailEntry
+import com.novaplayer.x.feature.playlist.navigation.PlaylistDetailRoute
 import com.novaplayer.x.feature.playlist.navigation.playlistListEntry
+import com.novaplayer.x.feature.playlist.navigation.PlaylistListRoute
+import com.novaplayer.x.PlaylistShortcut
 import com.novaplayer.x.settings.navigation.navigateToSettings
 
 fun EntryProviderScope<NavKey>.playlistNavGraph(

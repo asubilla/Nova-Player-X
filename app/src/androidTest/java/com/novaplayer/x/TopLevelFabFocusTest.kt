@@ -3,7 +3,6 @@ package com.novaplayer.x
 import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.SemanticsProperties
-import androidx.compose.ui.test.SemanticsMatcher
 import androidx.compose.ui.test.assertIsFocused
 import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.isFocused
@@ -15,6 +14,7 @@ import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performKeyInput
 import androidx.compose.ui.test.pressKey
 import androidx.compose.ui.test.requestFocus
+import androidx.compose.ui.test.SemanticsMatcher
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.rule.GrantPermissionRule
 import com.novaplayer.x.core.common.extensions.isTelevision
@@ -22,8 +22,8 @@ import com.novaplayer.x.core.common.storagePermission
 import org.junit.Assume.assumeTrue
 import org.junit.Before
 import org.junit.Rule
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 
 @RunWith(AndroidJUnit4::class)
 class TopLevelFabFocusTest {

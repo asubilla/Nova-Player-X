@@ -8,12 +8,12 @@ import com.novaplayer.x.core.model.NetworkAuthentication
 import com.novaplayer.x.core.model.NetworkConnection
 import com.novaplayer.x.core.ui.base.MviViewModel
 import kotlinx.coroutines.CancellationException
-import kotlinx.coroutines.NonCancellable
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.withContext
 import org.koin.core.annotation.InjectedParam
 import org.koin.core.annotation.KoinViewModel

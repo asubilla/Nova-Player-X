@@ -1,10 +1,10 @@
 package com.novaplayer.x.core.media.network.clients
 
-import com.thegrizzlylabs.sardineandroid.Sardine
-import com.thegrizzlylabs.sardineandroid.impl.OkHttpSardine
 import com.novaplayer.x.core.media.network.NetworkClient
 import com.novaplayer.x.core.model.NetworkConnection
 import com.novaplayer.x.core.model.NetworkFile
+import com.thegrizzlylabs.sardineandroid.impl.OkHttpSardine
+import com.thegrizzlylabs.sardineandroid.Sardine
 import java.io.InputStream
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

@@ -32,7 +32,6 @@ import com.novaplayer.x.core.common.extensions.round
 import com.novaplayer.x.core.common.extensions.toString
 import com.novaplayer.x.core.model.DoubleTapGesture
 import com.novaplayer.x.core.model.PlayerPreferences
-import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.components.ListSectionTitle
 import com.novaplayer.x.core.ui.components.NextDialogWithDoneAndCancelButtons
 import com.novaplayer.x.core.ui.components.NextTopAppBar
@@ -45,6 +44,7 @@ import com.novaplayer.x.core.ui.components.tvFocusDown
 import com.novaplayer.x.core.ui.components.tvListFocus
 import com.novaplayer.x.core.ui.designsystem.NextIcons
 import com.novaplayer.x.core.ui.preview.DayNightPreview
+import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.theme.NovaPlayerTheme
 import com.novaplayer.x.settings.composables.OptionsDialog
 import com.novaplayer.x.settings.extensions.name

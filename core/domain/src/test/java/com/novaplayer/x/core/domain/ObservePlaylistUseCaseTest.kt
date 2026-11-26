@@ -1,7 +1,7 @@
 package com.novaplayer.x.core.domain
 
-import com.novaplayer.x.core.data.repository.PlaylistRepository
 import com.novaplayer.x.core.data.repository.fake.FakeMediaRepository
+import com.novaplayer.x.core.data.repository.PlaylistRepository
 import com.novaplayer.x.core.model.M3UPlaylist
 import com.novaplayer.x.core.model.M3UPlaylistItem
 import com.novaplayer.x.core.model.PlaylistItemRecord
@@ -10,9 +10,9 @@ import com.novaplayer.x.core.model.PlaylistSummary
 import com.novaplayer.x.core.model.PlaylistType
 import com.novaplayer.x.core.model.Video
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
 import org.junit.Test

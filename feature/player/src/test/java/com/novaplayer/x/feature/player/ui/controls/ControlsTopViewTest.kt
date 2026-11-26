@@ -1,10 +1,10 @@
 package com.novaplayer.x.feature.player.ui.controls
 
 import androidx.activity.ComponentActivity
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.input.key.Key
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.test.assertIsFocused
 import androidx.compose.ui.test.junit4.v2.createAndroidComposeRule
 import androidx.compose.ui.test.onNodeWithContentDescription
@@ -14,10 +14,10 @@ import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.theme.NovaPlayerTheme
 import org.junit.Assert.assertTrue
 import org.junit.Rule
-import org.junit.Test
 import org.junit.runner.RunWith
-import org.robolectric.RobolectricTestRunner
+import org.junit.Test
 import org.robolectric.annotation.Config
+import org.robolectric.RobolectricTestRunner
 
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk = [36])

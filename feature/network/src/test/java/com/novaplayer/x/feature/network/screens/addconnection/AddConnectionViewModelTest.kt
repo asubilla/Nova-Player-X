@@ -6,10 +6,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelStore
 import com.novaplayer.x.core.data.repository.NetworkConnectionRepository
-import com.novaplayer.x.core.media.network.NetworkClient
-import com.novaplayer.x.core.media.network.NetworkClientFactory
 import com.novaplayer.x.core.media.network.keys.SshKeyStore
 import com.novaplayer.x.core.media.network.keys.StagedSshKey
+import com.novaplayer.x.core.media.network.NetworkClient
+import com.novaplayer.x.core.media.network.NetworkClientFactory
 import com.novaplayer.x.core.media.network.sftp.HostKeyConfirmationRequired
 import com.novaplayer.x.core.media.network.sftp.HostKeyMismatch
 import com.novaplayer.x.core.model.NetworkAuthentication
@@ -23,9 +23,9 @@ import java.io.InputStream
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.test.advanceUntilIdle
 import kotlinx.coroutines.test.runCurrent
 import kotlinx.coroutines.test.runTest

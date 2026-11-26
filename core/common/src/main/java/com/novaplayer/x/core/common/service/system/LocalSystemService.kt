@@ -8,8 +8,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import com.novaplayer.x.core.common.service.SuspendActivityResultLauncher
 import com.novaplayer.x.core.common.service.registerForSuspendActivityResult
+import com.novaplayer.x.core.common.service.SuspendActivityResultLauncher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.koin.core.annotation.Single

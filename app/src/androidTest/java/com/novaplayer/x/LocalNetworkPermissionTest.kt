@@ -1,7 +1,7 @@
 package com.novaplayer.x
 
-import android.Manifest
 import android.content.pm.PackageManager
+import android.Manifest
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.junit4.v2.createAndroidComposeRule
 import androidx.compose.ui.test.onNodeWithContentDescription
@@ -16,8 +16,8 @@ import com.novaplayer.x.core.common.storagePermission
 import com.novaplayer.x.core.ui.R
 import org.junit.Assert.assertEquals
 import org.junit.Rule
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 
 @RunWith(AndroidJUnit4::class)
 @SdkSuppress(minSdkVersion = 37)

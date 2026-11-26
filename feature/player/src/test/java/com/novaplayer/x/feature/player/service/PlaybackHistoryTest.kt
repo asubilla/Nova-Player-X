@@ -8,20 +8,20 @@ import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
 import coil3.ImageLoader
-import com.novaplayer.x.core.data.repository.MediaRepository
 import com.novaplayer.x.core.data.repository.fake.FakeMediaRepository
+import com.novaplayer.x.core.data.repository.MediaRepository
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 import org.koin.core.context.startKoin
 import org.koin.core.context.stopKoin
 import org.koin.dsl.module
+import org.robolectric.annotation.Config
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
 import org.robolectric.Shadows.shadowOf
-import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
 @Config(

@@ -20,8 +20,8 @@ import com.novaplayer.x.core.model.Video
 import com.novaplayer.x.core.ui.theme.NovaPlayerTheme
 import com.novaplayer.x.feature.videopicker.composables.MediaView
 import org.junit.Rule
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 
 @RunWith(AndroidJUnit4::class)
 class MediaViewWidthTest {

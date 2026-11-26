@@ -8,8 +8,8 @@ import androidx.media3.common.MediaItem
 import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.datasource.DefaultDataSource
-import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.exoplayer.analytics.AnalyticsListener
+import androidx.media3.exoplayer.ExoPlayer
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import io.github.anilbeesetti.nextlib.media3ext.ffdecoder.DecoderManager
@@ -21,8 +21,8 @@ import java.util.concurrent.atomic.AtomicLong
 import java.util.concurrent.atomic.AtomicReference
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 
 @RunWith(AndroidJUnit4::class)
 class CompatibilityPlaybackTest {

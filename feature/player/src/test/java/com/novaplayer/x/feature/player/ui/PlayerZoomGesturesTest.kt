@@ -1,13 +1,13 @@
 package com.novaplayer.x.feature.player.ui
 
 import androidx.activity.ComponentActivity
-import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Modifier
+import androidx.compose.runtime.SideEffect
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.test.junit4.v2.createAndroidComposeRule
 import androidx.compose.ui.test.onNodeWithTag
@@ -21,6 +21,7 @@ import com.novaplayer.x.feature.player.PlayerActivity
 import com.novaplayer.x.feature.player.state.BrightnessState
 import com.novaplayer.x.feature.player.state.ControlsVisibilityState
 import com.novaplayer.x.feature.player.state.PictureInPictureState
+import com.novaplayer.x.feature.player.state.rememberVideoZoomAndContentScaleState
 import com.novaplayer.x.feature.player.state.SeekGestureState
 import com.novaplayer.x.feature.player.state.SubtitlePositionState
 import com.novaplayer.x.feature.player.state.TapGestureState
@@ -28,15 +29,14 @@ import com.novaplayer.x.feature.player.state.VideoZoomAndContentScaleState
 import com.novaplayer.x.feature.player.state.VideoZoomEvent
 import com.novaplayer.x.feature.player.state.VolumeAndBrightnessGestureState
 import com.novaplayer.x.feature.player.state.VolumeState
-import com.novaplayer.x.feature.player.state.rememberVideoZoomAndContentScaleState
 import kotlin.time.Duration.Companion.seconds
 import org.junit.Assert.assertTrue
 import org.junit.Rule
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
+import org.robolectric.annotation.Config
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
-import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk = [36])

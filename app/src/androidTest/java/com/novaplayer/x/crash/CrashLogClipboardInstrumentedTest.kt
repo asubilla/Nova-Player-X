@@ -11,8 +11,8 @@ import androidx.test.filters.SdkSuppress
 import androidx.test.platform.app.InstrumentationRegistry
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 
 private const val WINDOW_FOCUS_TIMEOUT_MS = 5_000L
 

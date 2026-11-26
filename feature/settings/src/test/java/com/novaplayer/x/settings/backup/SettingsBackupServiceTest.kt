@@ -6,8 +6,8 @@ import android.content.pm.ProviderInfo
 import android.database.Cursor
 import android.net.Uri
 import android.os.ParcelFileDescriptor
-import com.novaplayer.x.core.data.repository.NetworkConnectionRepository
 import com.novaplayer.x.core.data.repository.fake.FakePreferencesRepository
+import com.novaplayer.x.core.data.repository.NetworkConnectionRepository
 import com.novaplayer.x.core.media.network.keys.SshKeyStore
 import com.novaplayer.x.core.media.network.keys.StagedSshKey
 import com.novaplayer.x.core.model.NetworkConnection
@@ -19,11 +19,11 @@ import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
+import org.robolectric.annotation.Config
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
-import org.robolectric.annotation.Config
 import org.robolectric.shadows.ShadowContentResolver
 
 @RunWith(RobolectricTestRunner::class)

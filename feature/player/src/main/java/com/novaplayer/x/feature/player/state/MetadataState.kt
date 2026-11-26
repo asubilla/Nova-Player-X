@@ -2,16 +2,16 @@ package com.novaplayer.x.feature.player.state
 
 import androidx.annotation.OptIn
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.Stable
 import androidx.media3.common.Player
 import androidx.media3.common.util.UnstableApi
-import androidx.media3.ui.compose.state.PlayerStateObserver
 import androidx.media3.ui.compose.state.observeState
+import androidx.media3.ui.compose.state.PlayerStateObserver
 
 @OptIn(UnstableApi::class)
 @Composable

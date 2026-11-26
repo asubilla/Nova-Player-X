@@ -2,20 +2,20 @@ package com.novaplayer.x.feature.player.state
 
 import androidx.activity.compose.LocalActivity
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
-import androidx.media3.common.Player
+import androidx.compose.runtime.Stable
 import androidx.media3.common.listen
+import androidx.media3.common.Player
 import com.novaplayer.x.feature.player.extensions.toggleSystemBars
 import kotlin.time.Duration
 import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
 @Composable

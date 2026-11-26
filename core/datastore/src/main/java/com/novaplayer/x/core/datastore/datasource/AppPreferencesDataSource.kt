@@ -1,8 +1,8 @@
 package com.novaplayer.x.core.datastore.datasource
 
 import androidx.datastore.core.DataStore
-import com.novaplayer.x.core.common.Logger
 import com.novaplayer.x.core.common.di.DiQualifiers
+import com.novaplayer.x.core.common.Logger
 import com.novaplayer.x.core.model.ApplicationPreferences
 import org.koin.core.annotation.Factory
 import org.koin.core.annotation.Named

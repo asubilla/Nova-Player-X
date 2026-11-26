@@ -9,21 +9,21 @@ import android.os.SystemClock
 import android.view.View
 import android.view.ViewGroup
 import androidx.compose.ui.platform.ViewRootForTest
-import androidx.compose.ui.semantics.SemanticsProperties
 import androidx.compose.ui.semantics.getAllSemanticsNodes
 import androidx.compose.ui.semantics.getOrNull
+import androidx.compose.ui.semantics.SemanticsProperties
 import androidx.core.view.doOnPreDraw
 import androidx.media3.common.Player
 import androidx.media3.session.MediaController
 import androidx.media3.session.SessionToken
 import androidx.media3.ui.SubtitleView
 import androidx.test.core.app.ActivityScenario
-import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.GeneralClickAction
 import androidx.test.espresso.action.GeneralSwipeAction
 import androidx.test.espresso.action.Press
 import androidx.test.espresso.action.Swipe
 import androidx.test.espresso.action.Tap
+import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.matcher.ViewMatchers.isRoot
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
@@ -38,8 +38,8 @@ import java.util.concurrent.TimeUnit
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 import org.koin.core.context.GlobalContext
 
 @RunWith(AndroidJUnit4::class)

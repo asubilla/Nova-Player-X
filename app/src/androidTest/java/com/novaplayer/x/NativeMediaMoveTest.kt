@@ -1,8 +1,8 @@
 package com.novaplayer.x
 
-import android.Manifest
 import android.content.ContentValues
 import android.content.Context
+import android.Manifest
 import android.net.Uri
 import android.os.Build
 import android.os.Environment
@@ -26,8 +26,8 @@ import kotlinx.coroutines.withTimeout
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 
 @RunWith(AndroidJUnit4::class)
 class NativeMediaMoveTest {

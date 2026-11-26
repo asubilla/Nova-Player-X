@@ -2,11 +2,11 @@ package com.novaplayer.x.core.media.network.clients
 
 import android.net.Uri
 import androidx.media3.datasource.DataSpec
-import com.sun.net.httpserver.HttpServer
-import com.novaplayer.x.core.media.network.NetworkClientFactory
-import com.novaplayer.x.core.media.network.NetworkConnectionResolver
 import com.novaplayer.x.core.media.network.datasource.NetworkDataSource
 import com.novaplayer.x.core.media.network.datasource.NetworkSessions
+import com.novaplayer.x.core.media.network.NetworkClientFactory
+import com.novaplayer.x.core.media.network.NetworkConnectionResolver
+import com.sun.net.httpserver.HttpServer
 import java.io.IOException
 import java.net.InetSocketAddress
 import java.util.concurrent.CopyOnWriteArrayList
@@ -14,10 +14,10 @@ import okhttp3.Credentials
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertThrows
 import org.junit.Assert.assertTrue
-import org.junit.Test
 import org.junit.runner.RunWith
-import org.robolectric.RobolectricTestRunner
+import org.junit.Test
 import org.robolectric.annotation.Config
+import org.robolectric.RobolectricTestRunner
 
 @RunWith(RobolectricTestRunner::class)
 @Config(

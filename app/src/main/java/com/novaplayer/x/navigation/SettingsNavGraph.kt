@@ -3,7 +3,6 @@ package com.novaplayer.x.navigation
 import androidx.navigation3.runtime.EntryProviderScope
 import androidx.navigation3.runtime.NavBackStack
 import androidx.navigation3.runtime.NavKey
-import com.novaplayer.x.settings.Setting
 import com.novaplayer.x.settings.navigation.aboutPreferencesEntry
 import com.novaplayer.x.settings.navigation.appearancePreferencesEntry
 import com.novaplayer.x.settings.navigation.audioPreferencesEntry
@@ -27,6 +26,7 @@ import com.novaplayer.x.settings.navigation.playerPreferencesEntry
 import com.novaplayer.x.settings.navigation.settingsEntry
 import com.novaplayer.x.settings.navigation.subtitlePreferencesEntry
 import com.novaplayer.x.settings.navigation.thumbnailPreferencesEntry
+import com.novaplayer.x.settings.Setting
 
 fun EntryProviderScope<NavKey>.settingsNavGraph(backStack: NavBackStack<NavKey>) {
     settingsEntry(

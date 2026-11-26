@@ -7,21 +7,21 @@ import com.novaplayer.x.core.domain.GetSortedPlaylistUseCase
 import com.novaplayer.x.core.domain.GetSortedVideosUseCase
 import com.novaplayer.x.feature.player.model.DecoderMode
 import com.novaplayer.x.feature.player.model.DecoderServiceState
+import kotlinx.coroutines.cancel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.cancel
-import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.runCurrent
 import kotlinx.coroutines.test.runTest
 import kotlinx.coroutines.test.setMain
+import kotlinx.coroutines.test.StandardTestDispatcher
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Before
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
 

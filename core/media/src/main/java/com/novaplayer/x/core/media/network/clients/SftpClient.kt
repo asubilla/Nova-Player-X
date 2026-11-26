@@ -1,7 +1,7 @@
 package com.novaplayer.x.core.media.network.clients
 
-import com.novaplayer.x.core.media.network.NetworkClient
 import com.novaplayer.x.core.media.network.keys.SshKeyStore
+import com.novaplayer.x.core.media.network.NetworkClient
 import com.novaplayer.x.core.media.network.sftp.HostKeyConfirmationRequired
 import com.novaplayer.x.core.media.network.sftp.HostKeyMismatch
 import com.novaplayer.x.core.media.network.sftp.SftpHostKeyVerifier
@@ -14,9 +14,9 @@ import java.io.InputStream
 import java.util.EnumSet
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import net.schmizz.sshj.SSHClient
 import net.schmizz.sshj.sftp.OpenMode
 import net.schmizz.sshj.sftp.SFTPClient
+import net.schmizz.sshj.SSHClient
 
 class SftpClient(private val connection: NetworkConnection, private val sshKeyStore: SshKeyStore) :
     NetworkClient {

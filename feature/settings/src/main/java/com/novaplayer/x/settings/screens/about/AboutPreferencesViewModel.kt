@@ -3,9 +3,9 @@ package com.novaplayer.x.settings.screens.about
 import android.content.Context
 import android.os.Build
 import com.novaplayer.x.core.ui.base.MviViewModel
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
 import org.koin.core.annotation.InjectedParam
 import org.koin.core.annotation.KoinViewModel
 

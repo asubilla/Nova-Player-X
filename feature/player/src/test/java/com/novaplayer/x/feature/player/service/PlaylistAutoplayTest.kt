@@ -5,8 +5,8 @@ import androidx.media3.common.Player
 import androidx.media3.common.Timeline
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.session.MediaSession
-import com.novaplayer.x.core.data.repository.PreferencesRepository
 import com.novaplayer.x.core.data.repository.fake.FakePreferencesRepository
+import com.novaplayer.x.core.data.repository.PreferencesRepository
 import com.novaplayer.x.core.model.PlaylistItemRecord
 import com.novaplayer.x.core.model.PlaylistRecord
 import com.novaplayer.x.core.model.PlaylistType
@@ -15,14 +15,14 @@ import kotlinx.coroutines.runBlocking
 import org.junit.After
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 import org.koin.core.context.startKoin
 import org.koin.core.context.stopKoin
 import org.koin.dsl.module
+import org.robolectric.annotation.Config
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
-import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
 @Config(

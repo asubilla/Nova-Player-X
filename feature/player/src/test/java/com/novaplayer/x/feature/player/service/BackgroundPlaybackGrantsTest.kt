@@ -5,12 +5,12 @@ import android.net.Uri
 import androidx.media3.common.MediaItem
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
+import org.robolectric.annotation.Config
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
 import org.robolectric.Shadows.shadowOf
-import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk = [28])

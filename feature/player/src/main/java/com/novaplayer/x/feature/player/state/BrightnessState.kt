@@ -6,17 +6,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.DisposableEffectResult
 import androidx.compose.runtime.DisposableEffectScope
-import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.Stable
 import androidx.core.app.PictureInPictureModeChangedInfo
 import androidx.core.util.Consumer
-import com.novaplayer.x.feature.player.PlayerActivity
 import com.novaplayer.x.feature.player.extensions.brightnessPercentage
 import com.novaplayer.x.feature.player.extensions.currentBrightness
+import com.novaplayer.x.feature.player.PlayerActivity
 
 @Composable
 fun rememberBrightnessState(): BrightnessState {

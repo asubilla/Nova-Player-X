@@ -18,8 +18,8 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -32,17 +32,17 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.novaplayer.x.core.model.ApplicationPreferences
 import com.novaplayer.x.core.model.ThumbnailGenerationStrategy
-import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.components.CancelButton
 import com.novaplayer.x.core.ui.components.ListSectionTitle
 import com.novaplayer.x.core.ui.components.NextDialog
 import com.novaplayer.x.core.ui.components.NextTopAppBar
 import com.novaplayer.x.core.ui.components.PreferenceSlider
-import com.novaplayer.x.core.ui.components.SingleSelectablePreference
 import com.novaplayer.x.core.ui.components.rememberTvListFocusRequester
+import com.novaplayer.x.core.ui.components.SingleSelectablePreference
 import com.novaplayer.x.core.ui.components.tvFocusDown
 import com.novaplayer.x.core.ui.components.tvListFocus
 import com.novaplayer.x.core.ui.designsystem.NextIcons
+import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.theme.NovaPlayerTheme
 import kotlin.math.abs
 

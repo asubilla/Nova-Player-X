@@ -16,10 +16,10 @@ import com.novaplayer.x.core.ui.theme.NovaPlayerTheme
 import com.novaplayer.x.feature.player.state.PlayerOrientationEffect
 import org.junit.Assert.assertEquals
 import org.junit.Rule
-import org.junit.Test
 import org.junit.runner.RunWith
-import org.robolectric.RobolectricTestRunner
+import org.junit.Test
 import org.robolectric.annotation.Config
+import org.robolectric.RobolectricTestRunner
 
 @RunWith(RobolectricTestRunner::class)
 @Config(

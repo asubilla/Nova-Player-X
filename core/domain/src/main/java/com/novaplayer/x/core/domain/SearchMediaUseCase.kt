@@ -4,8 +4,8 @@ import com.novaplayer.x.core.common.di.DiQualifiers
 import com.novaplayer.x.core.model.Folder
 import com.novaplayer.x.core.model.Video
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.flowOn
 import org.koin.core.annotation.Factory

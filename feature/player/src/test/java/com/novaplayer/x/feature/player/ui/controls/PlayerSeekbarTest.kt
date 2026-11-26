@@ -11,18 +11,18 @@ import androidx.compose.ui.hapticfeedback.HapticFeedback
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.semantics.SemanticsProperties
-import androidx.compose.ui.test.SemanticsMatcher
 import androidx.compose.ui.test.junit4.v2.createAndroidComposeRule
 import androidx.compose.ui.test.performTouchInput
+import androidx.compose.ui.test.SemanticsMatcher
 import androidx.media3.extractor.metadata.Chapter
 import com.novaplayer.x.core.ui.theme.NovaPlayerTheme
 import com.novaplayer.x.feature.player.LocalUseMaterialYouControls
 import org.junit.Assert.assertEquals
 import org.junit.Rule
-import org.junit.Test
 import org.junit.runner.RunWith
-import org.robolectric.RobolectricTestRunner
+import org.junit.Test
 import org.robolectric.annotation.Config
+import org.robolectric.RobolectricTestRunner
 
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk = [36])

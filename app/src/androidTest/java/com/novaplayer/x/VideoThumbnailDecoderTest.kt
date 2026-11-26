@@ -1,6 +1,5 @@
 package com.novaplayer.x
 
-import android.Manifest
 import android.content.ContentProvider
 import android.content.ContentResolver
 import android.content.ContentValues
@@ -8,6 +7,7 @@ import android.content.Context
 import android.content.ContextWrapper
 import android.database.Cursor
 import android.database.MatrixCursor
+import android.Manifest
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
@@ -26,8 +26,8 @@ import java.util.UUID
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 
 @RunWith(AndroidJUnit4::class)
 @SdkSuppress(minSdkVersion = 29)

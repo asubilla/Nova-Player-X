@@ -6,22 +6,22 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
+import androidx.lifecycle.Lifecycle
 import androidx.media3.common.Player
 import androidx.media3.common.util.UnstableApi
 import com.novaplayer.x.core.ui.R
@@ -42,8 +42,8 @@ import com.novaplayer.x.feature.player.state.rememberVolumeState
 import com.novaplayer.x.feature.player.ui.PlayerErrorDialogs
 import com.novaplayer.x.feature.player.ui.PlayerGestures
 import com.novaplayer.x.feature.player.ui.PlayerVerticalGestureIndicators
-import com.novaplayer.x.feature.player.ui.SubtitleConfiguration
 import com.novaplayer.x.feature.player.ui.preview.rememberPreviewPlayer
+import com.novaplayer.x.feature.player.ui.SubtitleConfiguration
 import com.novaplayer.x.feature.player.utils.PlayerApi
 import kotlin.time.Duration.Companion.seconds
 

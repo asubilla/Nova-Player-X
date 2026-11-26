@@ -6,34 +6,34 @@ import androidx.core.net.toUri
 import androidx.media3.common.util.BitmapLoader
 import androidx.media3.session.MediaSession
 import com.novaplayer.x.core.common.di.DiQualifiers
-import com.novaplayer.x.core.data.repository.PreferencesRepository
 import com.novaplayer.x.core.data.repository.fake.FakePreferencesRepository
-import com.novaplayer.x.core.media.network.NetworkClientFactory
-import com.novaplayer.x.core.media.network.NetworkConnectionResolver
+import com.novaplayer.x.core.data.repository.PreferencesRepository
 import com.novaplayer.x.core.media.network.datasource.NetworkSessions
 import com.novaplayer.x.core.media.network.datasource.NextDataSourceFactory
+import com.novaplayer.x.core.media.network.NetworkClientFactory
+import com.novaplayer.x.core.media.network.NetworkConnectionResolver
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.util.concurrent.TimeUnit
+import kotlinx.coroutines.cancel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
-import kotlinx.coroutines.cancel
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Before
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 import org.koin.core.context.startKoin
 import org.koin.core.context.stopKoin
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
+import org.robolectric.annotation.Config
+import org.robolectric.annotation.GraphicsMode
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
-import org.robolectric.annotation.Config
-import org.robolectric.annotation.GraphicsMode
 
 @RunWith(RobolectricTestRunner::class)
 @Config(

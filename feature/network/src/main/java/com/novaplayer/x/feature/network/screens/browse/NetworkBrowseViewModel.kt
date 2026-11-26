@@ -6,10 +6,10 @@ import androidx.lifecycle.viewModelScope
 import com.novaplayer.x.core.data.repository.MediaRepository
 import com.novaplayer.x.core.data.repository.NetworkConnectionRepository
 import com.novaplayer.x.core.data.repository.PreferencesRepository
+import com.novaplayer.x.core.media.network.isNetworkVideoFile
 import com.novaplayer.x.core.media.network.NetworkClient
 import com.novaplayer.x.core.media.network.NetworkClientFactory
 import com.novaplayer.x.core.media.network.NetworkUri
-import com.novaplayer.x.core.media.network.isNetworkVideoFile
 import com.novaplayer.x.core.media.network.sftp.HostKeyMismatch
 import com.novaplayer.x.core.model.ApplicationPreferences
 import com.novaplayer.x.core.model.MediaLayoutMode
@@ -20,10 +20,10 @@ import com.novaplayer.x.core.model.Video
 import com.novaplayer.x.core.ui.base.MviViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.core.annotation.InjectedParam

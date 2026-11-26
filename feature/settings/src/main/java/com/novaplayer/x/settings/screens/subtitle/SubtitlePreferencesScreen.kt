@@ -30,7 +30,6 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.novaplayer.x.core.model.Font
 import com.novaplayer.x.core.model.PlayerPreferences
-import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.components.ClickablePreferenceItem
 import com.novaplayer.x.core.ui.components.ListSectionTitle
 import com.novaplayer.x.core.ui.components.NextTopAppBar
@@ -42,6 +41,7 @@ import com.novaplayer.x.core.ui.components.rememberTvListFocusRequester
 import com.novaplayer.x.core.ui.components.tvFocusDown
 import com.novaplayer.x.core.ui.components.tvListFocus
 import com.novaplayer.x.core.ui.designsystem.NextIcons
+import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.theme.NovaPlayerTheme
 import com.novaplayer.x.settings.composables.OptionsDialog
 import com.novaplayer.x.settings.extensions.name

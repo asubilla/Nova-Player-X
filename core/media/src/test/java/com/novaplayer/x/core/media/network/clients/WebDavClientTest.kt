@@ -1,9 +1,9 @@
 package com.novaplayer.x.core.media.network.clients
 
-import com.sun.net.httpserver.HttpServer
-import com.thegrizzlylabs.sardineandroid.impl.SardineException
 import com.novaplayer.x.core.model.NetworkConnection
 import com.novaplayer.x.core.model.NetworkProtocol
+import com.sun.net.httpserver.HttpServer
+import com.thegrizzlylabs.sardineandroid.impl.SardineException
 import java.net.InetSocketAddress
 import java.util.concurrent.CopyOnWriteArrayList
 import kotlinx.coroutines.runBlocking
@@ -11,10 +11,10 @@ import okhttp3.Credentials
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
-import org.junit.Test
 import org.junit.runner.RunWith
-import org.robolectric.RobolectricTestRunner
+import org.junit.Test
 import org.robolectric.annotation.Config
+import org.robolectric.RobolectricTestRunner
 
 @RunWith(RobolectricTestRunner::class)
 @Config(

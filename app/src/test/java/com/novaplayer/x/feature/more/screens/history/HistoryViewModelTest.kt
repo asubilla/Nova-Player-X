@@ -1,30 +1,30 @@
 package com.novaplayer.x.feature.more.screens.history
 
 import androidx.lifecycle.viewModelScope
-import com.novaplayer.x.core.data.repository.MediaRepository
 import com.novaplayer.x.core.data.repository.fake.FakeMediaRepository
 import com.novaplayer.x.core.data.repository.fake.FakePreferencesRepository
+import com.novaplayer.x.core.data.repository.MediaRepository
 import com.novaplayer.x.core.model.Video
 import com.novaplayer.x.core.ui.base.DataState
 import com.novaplayer.x.settings.screens.medialibrary.MediaLibraryPreferencesUiEvent
 import com.novaplayer.x.settings.screens.medialibrary.MediaLibraryPreferencesViewModel
+import kotlinx.coroutines.cancel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.runCurrent
 import kotlinx.coroutines.test.runTest
 import kotlinx.coroutines.test.setMain
+import kotlinx.coroutines.test.StandardTestDispatcher
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Before
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 import org.robolectric.RobolectricTestRunner
 
 @OptIn(ExperimentalCoroutinesApi::class)

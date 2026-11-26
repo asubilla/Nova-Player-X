@@ -17,8 +17,8 @@ import com.novaplayer.x.core.model.PlaylistSummary
 import com.novaplayer.x.core.model.PlaylistType
 import kotlinx.coroutines.runBlocking
 import org.junit.Rule
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 import org.koin.core.context.GlobalContext
 
 @RunWith(AndroidJUnit4::class)

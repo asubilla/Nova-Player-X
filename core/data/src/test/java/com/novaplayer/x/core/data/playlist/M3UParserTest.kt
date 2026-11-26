@@ -2,8 +2,8 @@ package com.novaplayer.x.core.data.playlist
 
 import android.content.Context
 import android.net.Uri
-import com.sun.net.httpserver.HttpServer
 import com.novaplayer.x.core.model.M3UPlaylistItem
+import com.sun.net.httpserver.HttpServer
 import java.net.InetSocketAddress
 import java.net.URI
 import kotlinx.coroutines.CancellationException
@@ -16,11 +16,11 @@ import org.junit.Assert.assertNull
 import org.junit.Assert.assertThrows
 import org.junit.Assert.assertTrue
 import org.junit.Before
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
+import org.robolectric.annotation.Config
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
-import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE)

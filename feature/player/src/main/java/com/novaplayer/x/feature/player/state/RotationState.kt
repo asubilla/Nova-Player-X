@@ -6,10 +6,10 @@ import android.content.res.Configuration
 import androidx.activity.compose.LocalActivity
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.Stable
 import androidx.compose.runtime.remember
-import androidx.media3.common.Player
+import androidx.compose.runtime.Stable
 import androidx.media3.common.listen
+import androidx.media3.common.Player
 import androidx.media3.common.util.UnstableApi
 import com.novaplayer.x.core.model.ScreenOrientation
 import com.novaplayer.x.feature.player.extensions.isPortrait

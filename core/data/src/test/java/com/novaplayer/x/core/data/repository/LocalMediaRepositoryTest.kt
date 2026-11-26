@@ -3,15 +3,15 @@ package com.novaplayer.x.core.data.repository
 import android.net.Uri
 import androidx.datastore.core.DataStoreFactory
 import androidx.room.Room
-import com.novaplayer.x.core.database.MediaDatabase
 import com.novaplayer.x.core.database.entities.MediumStateEntity
+import com.novaplayer.x.core.database.MediaDatabase
 import com.novaplayer.x.core.datastore.datasource.AppPreferencesDataSource
 import com.novaplayer.x.core.datastore.serializer.ApplicationPreferencesSerializer
 import com.novaplayer.x.core.media.services.MediaFolder
 import com.novaplayer.x.core.media.services.MediaService
 import com.novaplayer.x.core.media.services.MediaVideo
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.launch
@@ -20,9 +20,9 @@ import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
 import org.junit.Rule
-import org.junit.Test
 import org.junit.rules.TemporaryFolder
 import org.junit.runner.RunWith
+import org.junit.Test
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
 

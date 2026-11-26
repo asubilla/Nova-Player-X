@@ -7,10 +7,10 @@ import androidx.core.net.toUri
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.novaplayer.x.core.database.MediaDatabase
 import com.novaplayer.x.core.database.dao.HiddenVideoDao
 import com.novaplayer.x.core.database.entities.HiddenVideoEntity
 import com.novaplayer.x.core.database.entities.MediumStateEntity
+import com.novaplayer.x.core.database.MediaDatabase
 import com.novaplayer.x.core.media.services.MediaOperationsService
 import com.novaplayer.x.core.media.services.TransferEvent
 import com.novaplayer.x.core.media.services.TransferMode
@@ -20,9 +20,9 @@ import java.util.UUID
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineStart
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
@@ -34,8 +34,8 @@ import org.junit.Assert.assertNotEquals
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Before
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 
 @RunWith(AndroidJUnit4::class)
 class LocalVaultRepositoryTest {

@@ -3,10 +3,10 @@ package com.novaplayer.x.core.data.mappers
 import android.net.Uri
 import com.novaplayer.x.core.media.services.MediaVideo
 import org.junit.Assert.assertEquals
-import org.junit.Test
 import org.junit.runner.RunWith
-import org.robolectric.RobolectricTestRunner
+import org.junit.Test
 import org.robolectric.annotation.Config
+import org.robolectric.RobolectricTestRunner
 
 @RunWith(RobolectricTestRunner::class)
 @Config(

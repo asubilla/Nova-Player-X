@@ -2,8 +2,8 @@ package com.novaplayer.x
 
 import androidx.datastore.core.DataStore
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelStore
 import androidx.lifecycle.viewmodel.CreationExtras
+import androidx.lifecycle.ViewModelStore
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import com.novaplayer.x.core.common.di.DiQualifiers
@@ -44,8 +44,8 @@ import kotlinx.coroutines.withTimeout
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotSame
 import org.junit.Assert.assertSame
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 import org.koin.core.annotation.KoinInternalApi
 import org.koin.core.context.GlobalContext
 import org.koin.core.parameter.parametersOf

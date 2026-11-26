@@ -13,37 +13,37 @@ import coil3.ImageLoader
 import com.google.common.util.concurrent.ListenableFuture
 import com.novaplayer.x.core.common.di.DiQualifiers
 import com.novaplayer.x.core.data.models.VideoState
-import com.novaplayer.x.core.data.repository.MediaRepository
-import com.novaplayer.x.core.data.repository.PreferencesRepository
 import com.novaplayer.x.core.data.repository.fake.FakeMediaRepository
 import com.novaplayer.x.core.data.repository.fake.FakePreferencesRepository
-import com.novaplayer.x.core.media.network.NetworkClientFactory
-import com.novaplayer.x.core.media.network.NetworkConnectionResolver
+import com.novaplayer.x.core.data.repository.MediaRepository
+import com.novaplayer.x.core.data.repository.PreferencesRepository
 import com.novaplayer.x.core.media.network.datasource.NetworkSessions
 import com.novaplayer.x.core.media.network.datasource.NextDataSourceFactory
+import com.novaplayer.x.core.media.network.NetworkClientFactory
+import com.novaplayer.x.core.media.network.NetworkConnectionResolver
 import com.novaplayer.x.feature.player.utils.PlayerApi
+import kotlinx.coroutines.cancel
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.SupervisorJob
-import kotlinx.coroutines.cancel
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.SupervisorJob
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Before
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 import org.koin.core.context.startKoin
 import org.koin.core.context.stopKoin
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
+import org.robolectric.annotation.Config
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
 import org.robolectric.Shadows.shadowOf
-import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk = [28])

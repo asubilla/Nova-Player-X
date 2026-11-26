@@ -7,8 +7,8 @@ import com.novaplayer.x.core.model.Folder
 import com.novaplayer.x.core.model.MediaInfo
 import com.novaplayer.x.core.model.Video
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.MutableStateFlow
 
 class FakeMediaRepository : MediaRepository {
 

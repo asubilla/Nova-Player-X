@@ -1,7 +1,6 @@
 package com.novaplayer.x.feature.playlist.screens.list
 
 import android.content.Context
-import com.sun.net.httpserver.HttpServer
 import com.novaplayer.x.core.data.playlist.M3UDocumentPermissionManager
 import com.novaplayer.x.core.data.playlist.M3UParser
 import com.novaplayer.x.core.media.sync.MediaSynchronizer
@@ -9,23 +8,24 @@ import com.novaplayer.x.core.model.PlaylistType
 import com.novaplayer.x.core.ui.base.ActionState
 import com.novaplayer.x.feature.playlist.FakePlaylistRepository
 import com.novaplayer.x.feature.playlist.FakeSystemService
+import com.sun.net.httpserver.HttpServer
 import java.net.InetSocketAddress
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.advanceUntilIdle
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.runTest
 import kotlinx.coroutines.test.setMain
+import kotlinx.coroutines.test.StandardTestDispatcher
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Before
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
+import org.robolectric.annotation.Config
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
-import org.robolectric.annotation.Config
 
 @OptIn(ExperimentalCoroutinesApi::class)
 @RunWith(RobolectricTestRunner::class)

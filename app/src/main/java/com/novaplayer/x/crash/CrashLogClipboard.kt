@@ -1,7 +1,7 @@
 package com.novaplayer.x.crash
 
-import android.content.ClipData
 import android.content.ClipboardManager
+import android.content.ClipData
 
 internal const val MAX_CLIPBOARD_REPORT_CHARS = 100_000
 internal const val CLIPBOARD_REPORT_TRUNCATION_MARKER =

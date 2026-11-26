@@ -15,9 +15,9 @@ import com.novaplayer.x.feature.player.model.DecoderMode
 import com.novaplayer.x.feature.player.model.DecoderServiceState
 import com.novaplayer.x.feature.player.state.SubtitleOptionsEvent
 import com.novaplayer.x.feature.player.state.VideoZoomEvent
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.core.annotation.InjectedParam

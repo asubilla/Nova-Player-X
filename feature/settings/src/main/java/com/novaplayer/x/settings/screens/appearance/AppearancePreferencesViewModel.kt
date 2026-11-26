@@ -6,9 +6,9 @@ import com.novaplayer.x.core.data.repository.PreferencesRepository
 import com.novaplayer.x.core.model.ApplicationPreferences
 import com.novaplayer.x.core.model.ThemeConfig
 import com.novaplayer.x.core.ui.base.MviViewModel
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.core.annotation.InjectedParam

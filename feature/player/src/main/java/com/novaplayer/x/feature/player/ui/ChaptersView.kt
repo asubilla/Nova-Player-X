@@ -1,11 +1,11 @@
 package com.novaplayer.x.feature.player.ui
 
 import androidx.compose.foundation.layout.BoxScope
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.navigationBarsPadding
-import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.material3.MaterialTheme
@@ -16,8 +16,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.media3.extractor.metadata.Chapter
-import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.core.ui.components.NextSegmentedListItem
+import com.novaplayer.x.core.ui.R
 import com.novaplayer.x.feature.player.extensions.formatted
 import kotlin.time.Duration.Companion.milliseconds
 

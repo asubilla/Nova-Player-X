@@ -19,9 +19,9 @@ import com.novaplayer.x.core.model.PlayerPreferences
 import com.novaplayer.x.feature.player.PlayerActivity
 import com.novaplayer.x.feature.player.service.PlayerService
 import com.novaplayer.x.feature.player.service.stopPlayerSession
-import java.util.UUID
 import java.util.concurrent.FutureTask
 import java.util.concurrent.TimeUnit
+import java.util.UUID
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout
@@ -32,8 +32,8 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNotEquals
 import org.junit.Assert.assertTrue
 import org.junit.Before
-import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Test
 import org.koin.core.context.GlobalContext
 
 @RunWith(AndroidJUnit4::class)
